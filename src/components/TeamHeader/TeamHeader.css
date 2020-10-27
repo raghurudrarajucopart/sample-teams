@@ -1,0 +1,28 @@
+.teamsHeader {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userStatusContainer, .userPersona {
+  display: flex;
+}
+
+.userStatus {
+  display: flex;
+  flex-flow: column-reverse;
+}
+
+.userStatusSelection {
+  min-width: 132px;
+  margin: 8px 0 0 12px;
+}
+
+/* .userPersona {
+  display: flex;
+} */

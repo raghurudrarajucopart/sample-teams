@@ -1,0 +1,1 @@
+export const UPDATE_TEAMS_DATA = 'UPDATE_TEAMS_DATA'
