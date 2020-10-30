@@ -1,4 +1,38 @@
 .teamContent {
-  display: flex;
+  /* display: flex;
+  height: calc(100vh - 96px);
   justify-content: space-around;
+  border: 1px solid black;
+  border-bottom: 2px solid black;
+  border-top: 2px solid black; */
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.teamContent .teamContentInner {
+  /* width: 33%;
+  border-right: 2px solid black;
+  border-left: 2px solid black; */
+  flex: 32%;
+  border: 1px solid blue;
+  height: calc(100vh - 96px);
+}
+/* .teamContentInner.teamMessages {
+  border-left: 0 solid black
+}
+.teamContentInner.teamMeetings {
+  border-left: 1px solid black
+} */
+
+.teamContentInner.teamMeetings, .teamContentInner.teamMessages {
+  border-right: 0px solid blue
+}
+
+.userMeetingDetailsInner, .teamMessagesInner, .teamMeetingsInner {
+  overflow: auto;
+}
+
+.taskListContainer, .meetingListContainer{
+  height: calc(100% - 48px);
+  overflow: auto;
 }

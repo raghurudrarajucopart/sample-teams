@@ -17,7 +17,7 @@ const UserStatus = [
   },
   {
     key: 'doNotDisturb',
-    text: 'Do Not Disturb',
+    text: 'Do not disturb',
     description: 'Do Not Disturb'
   },
   {
@@ -98,4 +98,20 @@ export const getUserStatus = () => {
   //   }
   // })
   // return UserStatus
+}
+
+export const getTasks = () => {
+  return fetch('https://jsonplaceholder.typicode.com/todos', {
+    "method": "GET",
+  })
+  .then(function(response) {
+    // The response is a Response instance.
+    // You parse the data into a useable format using `.json()`
+    return response.json();
+  })
+  .then((res) => {
+    console.log('res: ', res)
+    return res
+    // return UserStatus
+  })
 }

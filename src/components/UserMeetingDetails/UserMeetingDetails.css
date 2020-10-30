@@ -1,0 +1,13 @@
+.userMeetingDetailsInner {
+  /* flex-wrap: wrap;
+  height: 50%; */
+}
+
+.userMeetingDetailsInner.meetingDetails {
+  border-bottom: 1px solid blue;
+  height: 132px;
+}
+
+.userMeetingDetailsInner.phoneDailerPad {
+  height: calc(100vh - 230px);
+}

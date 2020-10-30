@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { IPersonaSharedProps, Persona, PersonaSize, PersonaPresence } from 'office-ui-fabric-react/lib/Persona';
+import { IPersonaSharedProps, Persona, PersonaSize } from 'office-ui-fabric-react/lib/Persona';
 import { TestImages } from '@uifabric/example-data';
 import { Select } from '@copart/core-components'
 import { userPresenceStatus } from '../../actions/teams'

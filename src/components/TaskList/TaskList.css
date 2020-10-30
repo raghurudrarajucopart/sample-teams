@@ -1,0 +1,12 @@
+.task-completed {
+  color: green
+}
+
+.task-pending {
+  color: blue
+}
+
+.taskItem {
+  text-align: left;
+  padding: 8px 12px;
+}

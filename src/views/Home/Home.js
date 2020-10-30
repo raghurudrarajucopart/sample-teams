@@ -28,7 +28,7 @@ const Home = ({ }) => {
 
   return (
     <React.Fragment>
-      <div className="teamsMainView">
+      <div className="teamsMainView" style={{padding: '12px'}}>
         <div className="teamsHeader">
           <TeamHeader statusList={statusList} userStatus={userStatus} setUserStatus={setUserStatus} userName={userName} />
         </div>

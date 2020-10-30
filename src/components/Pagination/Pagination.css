@@ -1,0 +1,12 @@
+.teamsPagination {
+  display: flex;
+  justify-content: center;
+  padding: 4px 0;
+}
+
+.teams-pagination-navigation {
+  font-weight: bold;
+  align-items: center;
+  display: flex;
+  padding: 0 4px;
+}

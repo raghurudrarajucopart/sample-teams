@@ -1,0 +1,50 @@
+.messagesContainer {
+  position: relative;
+  overflow-y: auto;
+  /*min-height: 350px;*/
+}
+
+.messagesContainer .messages {
+  position: relative;
+  width: auto;
+  overflow-y: auto;
+  height: 100%;
+  padding: 10px 5px;
+}
+
+.EmptyMessage {
+  /* position: absolute; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #ccc;
+  padding: 10px 0px;
+  bottom: 0;
+}
+
+.UnreadMessageTag,
+.TimelineMessageTag {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+  float: left;
+}
+
+.UnreadMessageTag span,
+.TimelineMessageTag span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+.TimelineMessageTag span {
+  color: #1d5ab9;
+}
+
+.UnreadMessageTag span {
+  font-weight: bold;
+  color: #a80000;
+}

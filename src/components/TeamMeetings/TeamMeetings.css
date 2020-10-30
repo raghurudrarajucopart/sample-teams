@@ -1,0 +1,8 @@
+.teamMeetingsInner {
+  flex-wrap: wrap;
+  height: 50%;
+}
+
+.teamMeetingsInner.taskList {
+  border-bottom: 1px solid blue;
+}

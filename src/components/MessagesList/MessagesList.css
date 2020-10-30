@@ -1,0 +1,13 @@
+.messageItem {
+	padding: 4px 12px;
+	display: flex;
+	cursor: pointer;
+}
+
+.messageItem.active {
+	background-color: #E5E7E9;
+}
+
+.messageItem.inActive:hover {
+	background-color: #F3F4F5;
+}

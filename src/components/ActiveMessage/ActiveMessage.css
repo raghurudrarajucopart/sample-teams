@@ -1,0 +1,23 @@
+.activeMessageList {
+  height: calc(100% - 96px);
+  overflow: auto;
+}
+
+.newMessageContainer {
+  display: flex;
+  padding: 4px 0;
+}
+
+.newMessageContainer .__Input-Input {
+  width: calc(100% - 64px);
+  margin-left: 4px;
+  display: flex;
+}
+
+.newMessageContainer .__Button-Button {
+  width: 108px;
+}
+
+.newMessageContainer .__Button-Button button{
+  width: 72px;
+}

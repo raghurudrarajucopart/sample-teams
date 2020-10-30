@@ -1,0 +1,95 @@
+.MessageBubble > div {
+  display: inline-block;
+  clear: both;
+  padding: 10px 15px;
+  border-radius: 20px;
+  margin-bottom: 8px;
+  max-width: 55%;
+}
+
+.LeftMessage {
+  background-color: #eee;
+  float: left;
+}
+
+.RightMessage {
+  float: right;
+  background-color: #1d5ab9;
+  color: #fff;
+}
+
+.LeftMessage + .RightMessage {
+  border-bottom-right-radius: 5px;
+}
+.RightMessage + .RightMessage {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.RightMessage:last-of-type {
+  border-bottom-right-radius: 20px;
+}
+.MessageBubble .LeftMessage .MessageMetaData,
+.MessageBubble .RightMessage .MessageMetaData {
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+.MessageBubble .LeftMessage .MessageMetaData {
+  color: #7a7878;
+  text-align: left;
+}
+
+.MessageBubble .RightMessage .MessageMetaData {
+  color: #f1f1f1;
+  text-align: right;
+}
+
+.MessageBubble .LeftMessage .MessageMetaData .messageTime,
+.MessageBubble .RightMessage .MessageMetaData .messageTime {
+  margin-right: 8px;
+}
+
+.MessageBubble .Thumbnails {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.MessageBubble .Thumbnails .thumbnail {
+  width: 100px;
+  height: 100px;
+  background: transparent;
+  font-size: x-small;
+  margin: 5px 2px 6px 2px;
+  text-decoration: none;
+}
+.MessageBubble .Thumbnails .thumbnail .image {
+  width: 100%;
+  height: 75px;
+}
+
+.MessageBubble .Thumbnails .thumbnail .ImageTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: center;
+  width: 100%;
+}
+
+.MessageBubble .RightMessage .thumbnail {
+  border: 1px solid #ccc;
+}
+.MessageBubble .LeftMessage .thumbnail {
+  border: 1px solid #000;
+}
+
+.MessageBubble .RightMessage .ImageTitle {
+  color: #fff;
+  border-top: 1px solid #ccc;
+}
+.MessageBubble .LeftMessage .ImageTitle {
+  color: #000;
+  border-top: 1px solid #000;
+}

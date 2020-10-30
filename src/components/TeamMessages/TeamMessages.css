@@ -1,0 +1,8 @@
+.teamMessagesInner {
+  flex-wrap: wrap;
+  height: 50%;
+}
+
+.teamMessagesInner.messagesList {
+  border-bottom: 1px solid blue;
+}
